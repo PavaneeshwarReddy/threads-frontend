@@ -1,0 +1,45 @@
+*{
+    color:white
+}
+
+.threads{
+    display: flex;
+    width: 60vw;
+    padding: 45px;
+    flex-direction: column;
+    align-items: center;
+}   
+
+.eachThread{
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgb(12, 12, 12);
+    border: 0.5px solid rgb(37, 37, 37);
+    border-radius: 10px;
+}
+
+.thread-head{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thread-head :nth-child(1){
+    font-weight: bold;
+}
+
+
+
+.thread-content{
+    margin-top: 20px;
+}
+
+.thread-foot{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}

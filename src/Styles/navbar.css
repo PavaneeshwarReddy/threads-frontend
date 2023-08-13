@@ -1,0 +1,28 @@
+
+.navbar{
+    width: 18vw;
+    height: 100vh;
+    padding: 25px 8px;
+    border-right: 0.5px solid rgb(52, 52, 52)
+}
+
+.nav-item{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.nav-item img{
+    width: 25px;
+    height: 25px;
+}
+
+.nav-item div{
+    color:white;
+    margin-left: 20px;
+}
+
+.navbar div div:nth-child(1) div{
+    font-weight: bold;
+    font-size: 18px;
+}

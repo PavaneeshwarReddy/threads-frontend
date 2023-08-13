@@ -24,7 +24,7 @@ function App() {
       </Route>
     )
   );
-  const [routes, setRoutes] = useState(authenticatedRoutes);
+  const [routes, setRoutes] = useState(notAuthenticatedRoutes);
   
   return (
     <div>
